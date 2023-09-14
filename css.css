@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+
+}
+#first {
+    color: rgb(255, 0, 255);
+    font-style: italic;
+    font-weight: 900;
+}
+@media screen and (min-width: 700px) {
+    .center {
+        display: flex;
+        justify-tracks: center;
+        align-items: center;
+    }
+}
